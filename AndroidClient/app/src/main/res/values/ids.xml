@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="main_fragment_placeholder" type="id">main_fragment_placeholder</item>
+
+    <item name="bluetooth_switch_id" type="id">bluetooth_switch_id</item>
+
+    <item name="touchView" type="id">touchView</item>
+    <item name="btLeftClick" type="id">btLeftClick</item>
+    <item name="btRightClick" type="id">btRightClick</item>
+
+    <item name="ClickButtonsLayout" type="id">btRightClick</item>
+
+</resources>

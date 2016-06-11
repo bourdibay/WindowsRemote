@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_entries_values_bluetooth_devices" />
+    <string-array name="pref_entries_bluetooth_devices" />
+</resources>

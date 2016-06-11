@@ -1,0 +1,18 @@
+Android:
+
+- test extensively udp
+
+- icons !
+
+- reduce message sizes by using protobuf for instance ?
+
+- plenty other stuff I guess ....
+
+Windows:
+
+- Try again to move most of the code into a service, and have a minimalist gui-based app which allows to move/click the cursor.
+As a result it would be more automatic to run the app on Windows.
+
+Other:
+
+- Linux support ?

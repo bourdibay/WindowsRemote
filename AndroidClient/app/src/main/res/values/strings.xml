@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">WindowsRemote</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Bluetooth preferences -->
+    <string name="pref_key_use_bluetooth">KEY_USE_BLUETOOTH</string>
+    <string name="pref_summary_use_bluetooth">Communicate with your computer with Bluetooth</string>
+    <string name="pref_title_use_bluetooth">Use Bluetooth</string>
+    <string name="pref_default_entry_value_bluetooth_devices" />
+    <string name="pref_dialog_title_list_bluetooth_devices">List of Bluetooth devices detected</string>
+    <string name="pref_title_list_bluetooth_devices">Bluetooth device to connect</string>
+    <string name="pref_key_list_bluetooth_devices">KEY_LIST_BLUETOOTH_DEVICES</string>
+
+    <string name="bluetooth_preferences_bluetooth_not_activated">Bluetooth is not activated in the preferences</string>
+    <string name="bluetooth_preferences_bluetooth_not_enabled">Bluetooth is not enabled</string>
+    <string name="bluetooth_preferences_bluetooth_not_supported">Bluetooth is not supported by your device</string>
+    <string name="bluetooth_preferences_no_device_to_connect">Cannot get the bluetooth device to connect in the shared preferences</string>
+    <string name="bluetooth_communicator_device_not_bonded">The device to connect is not bonded</string>
+    <string name="bluetooth_communicator_cannot_create_connection">Cannot create connection to the device</string>
+    <string name="bluetooth_communicator_cannot_connect">Cannot connect to the device</string>
+    <string name="bluetooth_communicator_cannot_output_stream">Cannot send data to the device</string>
+
+    <!-- TCP preferences -->
+    <string name="pref_key_use_tcp">KEY_USE_TCP</string>
+    <string name="pref_summary_use_tcp">Communicate with your computer with TCP</string>
+    <string name="pref_title_use_tcp">Use TCP</string>
+    <string name="pref_default_tcp_ip">127.0.0.1</string>
+    <string name="pref_key_tcp_ip">KEY_TCP_IP</string>
+    <string name="pref_title_tcp_ip">Server IP address</string>
+    <string name="pref_default_tcp_port">10500</string>
+    <string name="pref_key_tcp_port">KEY_TCP_PORT</string>
+    <string name="pref_title_tcp_port">Server port</string>
+
+    <string name="tcp_preferences_tcp_not_activated">TCP not activated</string>
+    <string name="tcp_communicator_socket_cannot_connect">Cannot connect to the server</string>
+    <string name="tcp_communicator_socket_cannot_output">Cannot get the output on the socket</string>
+
+    <!-- UDP preferences -->
+    <string name="pref_key_use_udp">KEY_USE_UDP</string>
+    <string name="pref_default_local_udp_port">10501</string>
+    <string name="pref_title_local_udp_port">Local UDP port to send data from</string>
+    <string name="pref_key_local_udp_port">KEY_UDP_PORT</string>
+    <string name="pref_title_use_udp">Use UDP</string>
+    <string name="pref_summary_use_udp">Communicate with your computer with UDP</string>
+    <string name="pref_title_server_udp_port">Server UDP port to connect</string>
+    <string name="pref_key_server_udp_port">KEY_SERVER_UDP_PORT</string>
+    <string name="pref_default_server_udp_port">10500</string>
+
+    <string name="udp_communicator_socket_cannot_create">Cannot create datagram socket</string>
+    <string name="udp_communicator_cannot_retrieve_dhcp">Cannot retrieve DHCP information</string>
+    <string name="udp_communicator_cannot_retrieve_addr_from_dhcp">Cannot retrieve inet address from DHCP</string>
+    <string name="udp_preferences_udp_not_activated">UDP not activated</string>
+
+    <!-- Other -->
+    <string name="UUID_value">B62C4E8D-62CC-404b-BBBF-BF3E3BBB1374</string>
+
+    <string name="action_state">State</string>
+
+    <string name="info_connection_established">Connection established</string>
+    <string name="info_connection_closed">Connection closed</string>
+
+</resources>

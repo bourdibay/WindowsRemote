@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:id="@id/bluetooth_switch_id"
+        android:defaultValue="false"
+        android:key="@string/pref_key_use_bluetooth"
+        android:summary="@string/pref_summary_use_bluetooth"
+        android:title="@string/pref_title_use_bluetooth" />
+    <ListPreference
+        android:defaultValue="@string/pref_default_entry_value_bluetooth_devices"
+        android:dependency="@string/pref_key_use_bluetooth"
+        android:dialogTitle="@string/pref_dialog_title_list_bluetooth_devices"
+        android:entries="@array/pref_entries_bluetooth_devices"
+        android:entryValues="@array/pref_entries_values_bluetooth_devices"
+        android:key="@string/pref_key_list_bluetooth_devices"
+        android:title="@string/pref_title_list_bluetooth_devices" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/pref_key_use_tcp"
+        android:summary="@string/pref_summary_use_tcp"
+        android:title="@string/pref_title_use_tcp" />
+    <EditTextPreference
+        android:capitalize="none"
+        android:defaultValue="@string/pref_default_tcp_ip"
+        android:dependency="@string/pref_key_use_tcp"
+        android:inputType="phone"
+        android:key="@string/pref_key_tcp_ip"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_tcp_ip" />
+    <EditTextPreference
+        android:capitalize="none"
+        android:defaultValue="@string/pref_default_tcp_port"
+        android:dependency="@string/pref_key_use_tcp"
+        android:inputType="numberSigned"
+        android:key="@string/pref_key_tcp_port"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_tcp_port" />
+
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/pref_key_use_udp"
+        android:summary="@string/pref_summary_use_udp"
+        android:title="@string/pref_title_use_udp" />
+    <EditTextPreference
+        android:capitalize="none"
+        android:defaultValue="@string/pref_default_local_udp_port"
+        android:dependency="@string/pref_key_use_udp"
+        android:inputType="numberSigned"
+        android:key="@string/pref_key_local_udp_port"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_local_udp_port" />
+    <EditTextPreference
+        android:capitalize="none"
+        android:defaultValue="@string/pref_default_server_udp_port"
+        android:dependency="@string/pref_key_use_udp"
+        android:inputType="numberSigned"
+        android:key="@string/pref_key_server_udp_port"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_server_udp_port" />
+
+</PreferenceScreen>
+
