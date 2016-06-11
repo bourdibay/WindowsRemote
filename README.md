@@ -64,8 +64,8 @@ Enable Bluetooth and pair to the Windows device. Then in the app's settings you'
 
 ### Screenshots
 
-[screen1](https://github.com/bourdibay/WindowsRemote/blob/master/Screenshots/home.png)
-[screen2](https://github.com/bourdibay/WindowsRemote/blob/master/Screenshots/settings.png)
-[screen3](https://github.com/bourdibay/WindowsRemote/blob/master/Screenshots/settings_bluetooth.png)
-[screen4](https://github.com/bourdibay/WindowsRemote/blob/master/Screenshots/home_connected.png)
-[screen5](https://github.com/bourdibay/WindowsRemote/blob/master/Screenshots/home_horizontal.png)
+![screen1](https://github.com/bourdibay/WindowsRemote/blob/master/Screenshots/home.png)
+![screen2](https://github.com/bourdibay/WindowsRemote/blob/master/Screenshots/settings.png)
+![screen3](https://github.com/bourdibay/WindowsRemote/blob/master/Screenshots/settings_bluetooth.png)
+![screen4](https://github.com/bourdibay/WindowsRemote/blob/master/Screenshots/home_connected.png)
+![screen5](https://github.com/bourdibay/WindowsRemote/blob/master/Screenshots/home_horizontal.png)
