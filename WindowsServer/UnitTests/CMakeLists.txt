@@ -19,7 +19,7 @@ set(CMAKE_CXX_FLAGS_RELEASE "/MT")
 ################################
 # GTest
 ################################
-ADD_SUBDIRECTORY (./gtest-1.7.0)
+ADD_SUBDIRECTORY (./thirdparty/gtest-1.7.0)
 enable_testing()
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 include_directories(../ServerMouseController/)
